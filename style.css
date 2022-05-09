@@ -1,0 +1,75 @@
+#contenedor {
+    background-image: url(https://img.freepik.com/vector-gratis/fondo-borroso-gris-claro-blanco-degradado-radial_53562-6788.jpg?w=2000);
+    padding: 5px 20px;
+    border-radius: 25px;
+    font-family: monospace;
+    width: 1200px;
+    height: 950px;
+    margin: auto;
+
+
+}
+
+body {
+
+    background-image: url(https://www.wallpapertip.com/wmimgs/50-509959_background-images-plain-hd.jpg)
+}
+
+h1 {
+    text-align: center;
+    text-rendering: geometricPrecision;
+    text-decoration: wavy;
+    text-decoration: underline;
+}
+
+h3 {
+    border: 2px;
+}
+
+hr {
+    color: black;
+    background-color: black;
+    height: 6px;
+
+}
+
+#mostrarReinvertir {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto auto auto;
+    align-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    background-image: url(https://img.freepik.com/foto-gratis/fondo-pared-marron-liso-abstracto-color-degradado-circulo-suave_1258-48255.jpg?w=2000);
+    text-shadow: 1px;
+}
+
+#g1,
+#g2,
+#g3,
+#g4,
+#g5,
+#g6,
+#g7,
+#g8,
+#g9,
+#g10,
+#g11,
+#g12,
+#g13,
+#g14,
+#g15 {
+    border: 3px solid rgb(255, 255, 255);
+    font-size: x-large;
+    font-family: Impact;
+}
+
+
+#montoFinal {
+    font-size: large;
+    font-stretch: semi-expanded;
+    border-radius: 2px;
+
+}
