@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Primer trabajo práctico</title>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="utf-8" http-equiv="encoding">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/vue@3"></script>
+    
+</head>
+
+<body>
+    <div id="app">
+        <h1>SIMULADOR DE PLAZO FIJO</h1>
+        <h3>
+            <p> - Introduzca su nombre -</p><input v-model="nombre" type="text" id="inputNombre"><br>
+            <p> - Introduzca su apellido -</p><input v-model="apellido" type="text" id="inputApellido"><br>
+            <p> - Introduzca el monto a depositar -</p><input v-model="monto" type="number" id="inputMonto"><br>
+            <p> - ¿Cuantos dias desea que dure el plazo fijo? -</p><input v-model="dias" type="number"
+                id="inputDias"><br>
+
+            <br><br>
+        </h3>
+
+        <button id=btnCalcular @click="programa">Calcular</button><br><br><br>
+        <p class="mostrar">{{ montoFinal }}</p>
+        <button id="btnReinvertir" @click="reinvertir">Reinvertir</button><br><br><br>
+        <p class="ultimoMonto">{{ ultimoMonto }}</p>
+        <p class="msjerror">{{ error }}</p>
+
+    </div>
+
+</body>
+<script src="formulario.js"></script>
+</html>
